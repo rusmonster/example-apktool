@@ -16,7 +16,7 @@ public class MyInvocationHandler extends AbstractInvocationHandler {
 	protected Object handleInvocation(final Object proxy, final Method method,
 									  final Object[] args) throws Throwable {
 		/**
-		 * After repacking apk with apktool_2.0.0rc1 next line crashes on Android 4.0.4 for
+		 * After repacking apk with apktool_2.0.0rc2 next line crashes on Android 4.0.4 for
 		 * method {@link MyExample#crash}, but works for method {@link MyExample#workaround}.
 		 * On Android 4.4.4 it works good for both methods.
 		 */
